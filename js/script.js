@@ -16,10 +16,9 @@ function mostrarPagina(qual) {
 // funcao do whatsapp
 function enviarWhatsApp() {
     var nome = document.getElementById('nome').value;
-    var telefone = document.getElementById('telefone').value;
     var mensagem = document.getElementById('mensagem').value;
 
-    if (nome === '' || telefone === '' || mensagem === '') {
+    if (nome === '' || mensagem === '') {
         alert('Por favor preencha todos os campos!');
         return;
     }
