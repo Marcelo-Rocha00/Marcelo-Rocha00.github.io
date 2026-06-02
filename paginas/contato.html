@@ -30,12 +30,14 @@
         <h2>Manda uma mensagem</h2>
 
         <label>Seu nome:</label>
-        <input type="text">
-
+        <input type="text" id="nome">
+        
         <label>Mensagem:</label>
-        <textarea rows="5"></textarea>
+        <textarea rows="5" id="mensagem"></textarea>
 
-        <button>Enviar pelo WhatsApp</button>
+        <button type="button" onclick="enviarWhatsApp()">
+            Enviar pelo WhatsApp
+        </button>
 
     </div>
 
